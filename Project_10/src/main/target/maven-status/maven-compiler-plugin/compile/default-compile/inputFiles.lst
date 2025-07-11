@@ -1,4 +1,5 @@
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\service\SubjectServiceImpl.java
+C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dao\ClientDAOInt.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\service\StudentServiceInt.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\ctl\LoginCtl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dto\CourseDTO.java
@@ -7,14 +8,12 @@ C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\ray
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\service\FacultyServiceImpl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\ctl\JasperCtl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\common\attachment\AttachmentBaseDTO.java
-C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\service\CustomerServiceImpl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\common\mail\EmailServiceImpl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\service\CollegeServiceInt.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dao\CollegeDAOImpl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dto\UserDTO.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\common\mail\EmailDTO.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dao\CartDAOInt.java
-C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dao\CustomerDAOInt.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\form\ItemForm.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\service\CollegeServiceImpl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\exception\ApplicationException.java
@@ -31,10 +30,12 @@ C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\ray
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\ctl\SubjectCtl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\service\JasperServiceImpl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dao\UserDAOImpl.java
+C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dao\ClientDAOImpl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\form\SubjectForm.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dao\CourseDAOInt.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\common\attachment\AttachmentDAOImpl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\ctl\CartCtl.java
+C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\service\ClientServiceImpl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dto\CollegeDTO.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\common\attachment\AttachmentServiceImpl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\service\CartServiceInt.java
@@ -51,6 +52,7 @@ C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\ray
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\common\BaseCtl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dao\TimeTableDAOInt.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\common\MenuItem.java
+C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\service\ClientServiceInt.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\service\ItemServiceImpl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\form\FacultyForm.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\form\RoleForm.java
@@ -73,13 +75,10 @@ C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\ray
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dao\RoleDAOInt.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\common\message\MessageServiceInt.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\service\CourseServiceInt.java
-C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\ctl\CustomerCtl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dao\MarksheetDAOInt.java
-C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\service\CustomerServiceInt.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\common\attachment\AttachmentServiceInt.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\config\SecurityConfig.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dao\StudentDAOInt.java
-C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dto\CustomerDTO.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dto\MarksheetDTO.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\common\attachment\AttachmentSummaryDTO.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dao\CollegeDAOInt.java
@@ -102,8 +101,10 @@ C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\ray
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dto\TimeTableDTO.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\service\MarksheetServiceImpl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\ctl\StudentCtl.java
+C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dto\ClientDTO.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\form\ChangePasswordForm.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\service\StudentServiceImpl.java
+C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\form\ClientForm.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\form\UserRegistrationForm.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\service\CartServiceImpl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\common\UserContext.java
@@ -116,6 +117,7 @@ C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\ray
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\service\SubjectServiceInt.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dto\ProductDTO.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dao\FacultyDAOImpl.java
+C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\ctl\ClientCtl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\common\attachment\AttachmentDAOInt.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\config\JWTRequestFilter.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\exception\DuplicateRecordException.java
@@ -131,11 +133,9 @@ C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\ray
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dto\CartDTO.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\form\ProductForm.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dao\ProductDAOImpl.java
-C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dao\CustomerDAOImpl.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\service\FacultyServiceInt.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\form\CollegeForm.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\dao\FacultyDAOInt.java
-C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\form\CustomerForm.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\service\RoleServiceInt.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\common\attachment\AttachmentDTO.java
 C:\Rays Software\Project10\Project_10\ORSProj10\Project_10\src\main\java\com\rays\common\message\MessageCtl.java
