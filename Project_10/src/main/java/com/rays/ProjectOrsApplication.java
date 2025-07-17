@@ -33,6 +33,7 @@ public class ProjectOrsApplication extends SpringBootServletInitializer {
 	}
 
 	/**
+	 * 
 	 * Enables CORS to all urls (cross origin resource sharing)
 	 * 
 	 * @return

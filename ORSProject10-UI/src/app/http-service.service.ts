@@ -59,7 +59,7 @@ export class HttpServiceService {
   }
 
 
-  get(endpoint, callback) {
+  get(endpoint, callback) { 
     if (this.isLogout()) {
       console.log('inside isLogout() return true');
       return true;
