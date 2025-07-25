@@ -1,41 +1,36 @@
 <app-navbar></app-navbar>
-
 <style>
   .grad {
     background-image: linear-gradient(to bottom right, rgb(32, 168, 168), rgb(219, 231, 237));
-    background-repeat: no-repeat;
+    background-repeat: no repeat;
     background-size: 100%;
     padding-bottom: 25px;
   }
+</style>
 
-  .background {
-    padding-top: 3%;
-    padding-bottom: 13%;
-<<<<<<< HEAD
-    background: url('assets/files/56.jpg') no-repeat center center;
-=======
-    background: url('assets/files/1022.jpg') no-repeat center center;
->>>>>>> a683b4de1338c6d181afbf718eabfccab34d3e14
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
-    height: auto;
+<style type="text/css">
+  .log1 {
+    padding-top: 13%;
   }
 
-  .required-field {
-    color: red;
-  }
+  .input-group-addon {
+    box-shadow: 9px 8px 7px #001a33;
 
-  .alertRedColor {
-    color: red;
   }
 </style>
 
-<div class="container-fluid background">
-  <div class="row justify-content-center">
-    <div class="col-sm-8 col-md-6 col-lg-4">
-      <div class="card">
-        <div class="card-body shadow-lg grad">
+<div class="row " style="padding-top: 6%; padding-bottom:5%;
+
+background: url(assets/files/wall.jpg) no-repeat center center;
+background-attachment: fixed;
+background-size: cover;width:100%;
+  height: auto;">
+
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body input-group-addon grad ">
+   
           <form name="assetForm">
             <h2 *ngIf="!form.data.id" class="text-primary font-weight-bold" style="text-align: center;">
               {{ 'Add Client' | translate }}
@@ -55,7 +50,7 @@
             </div>
 
            <!-- Name Field with Validation -->
-           <div class="form-group pt-2">
+           <div class="form-group mt-3">
             <label><b>{{ 'FullName' | translate }}</b><span class="required-field">*</span></label>
             <div class="input-group">
               <div class="input-group-prepend">
@@ -66,8 +61,8 @@
             </div>
             <span *ngIf="form.inputerror?.fullName" class="alertRedColor">{{ form.inputerror.fullName }}</span>
           </div>
-            <div>
-            <span class="pt-2"><b>{{ 'AppointmentDate' | translate }}</b><span class="required-field">*</span></span>
+            <div class="form-group mt-3">
+            <label><b>{{ 'AppointmentDate' | translate }}</b><span class="required-field">*</span></label>
               <div class="input-group">
                 <div class="input-group-prepend">
                   <div class="input-group-text"><i class="fa fa-table grey-text"></i></div>
@@ -78,7 +73,7 @@
             <span class="alertRedColor" style=" color: red;">{{ form.inputerror.appointmentDate }}</span>
           </div>
 
-            <div class="form-group pt-2">
+            <div class="form-group mt-3">
               <label><b>{{ 'Phone' | translate }}</b><span class="required-field">*</span></label>
               <div class="input-group">
                 <div class="input-group-prepend">
@@ -90,7 +85,7 @@
               <span *ngIf="form.inputerror?.phone" class="alertRedColor">{{ form.inputerror.phone }}</span>
             </div>
 
-            <div class="form-group pt-2">
+            <div class="form-group mt-3">
               <label><b>{{ 'Illness' | translate }}</b><span class="required-field">*</span></label>
               <div class="input-group">
                 <div class="input-group-prepend">
@@ -139,6 +134,4 @@
       </div>
     </div>
   </div>
-</div>
-
 <app-footer></app-footer>
