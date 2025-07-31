@@ -67,6 +67,7 @@ export class HttpServiceService {
       console.log('Data :: ' + data);
       console.log('-------- get method success callback Function------------');
       callback(data);
+      
     }, error => {
 
       console.log('ORS Error--', error);
