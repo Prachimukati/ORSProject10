@@ -59,7 +59,7 @@ background-size: cover;width:100%;
               <input type="text" name="fullName" [(ngModel)]="form.data.fullName" class="form-control"
                 placeholder="{{ 'Enter fullName' | translate }}">
             </div>
-            <span *ngIf="form.inputerror?.fullName" class="alertRedColor">{{ form.inputerror.fullName }}</span>
+            <span *ngIf="form.inputerror?.fullName" class="alertRedColor" style=" color: red;">{{ form.inputerror.fullName }}</span>
           </div>
             <div class="form-group mt-3">
             <label><b>{{ 'AppointmentDate' | translate }}</b><span class="required-field">*</span></label>
@@ -82,7 +82,7 @@ background-size: cover;width:100%;
                 <input type="text" name="phone" [(ngModel)]="form.data.phone" class="form-control"
                   placeholder="{{ 'Enter Phone' | translate }}" required>
               </div>
-              <span *ngIf="form.inputerror?.phone" class="alertRedColor">{{ form.inputerror.phone }}</span>
+              <span *ngIf="form.inputerror?.phone" class="alertRedColor" style=" color: red;">{{ form.inputerror.phone }}</span>
             </div>
 
             <div class="form-group mt-3">
@@ -99,7 +99,7 @@ background-size: cover;width:100%;
 
                 </select>
               </div>
-              <span *ngIf="form.inputerror?.illness" class="alertRedColor">{{ form.inputerror.illness }}</span>
+              <span *ngIf="form.inputerror?.illness" class="alertRedColor" style=" color: red;">{{ form.inputerror.illness }}</span>
             </div>
 
             <div class="row pt-2 pl-2 pb-3">

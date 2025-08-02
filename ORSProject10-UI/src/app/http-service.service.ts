@@ -61,13 +61,14 @@ export class HttpServiceService {
   get(endpoint, callback) {
     if (this.isLogout()) {
       console.log('inside isLogout() return true');
+      
       return true;
     }
     return this.httpClient.get(endpoint).subscribe((data) => {
       console.log('Data :: ' + data);
       console.log('-------- get method success callback Function------------');
       callback(data);
-      
+
     }, error => {
 
       console.log('ORS Error--', error);
