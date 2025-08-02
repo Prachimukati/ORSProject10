@@ -66,13 +66,13 @@ export class HttpServiceService {
     }
     return this.httpClient.get(endpoint).subscribe((data) => {
       console.log('Data :: ' + data);
-      console.log('-------- get method success callback Function------------');
+      console.log('-------- get method success callback Function ------------');
       callback(data);
 
     }, error => {
 
       console.log('ORS Error--', error);
-      console.log('-------- get method error callback Function------------');
+      console.log('-------- get method error callback Function ------------');
 
     }); ``
 
@@ -85,14 +85,14 @@ export class HttpServiceService {
     }
     return this.httpClient.post(endpoint, bean).subscribe((data) => {
       console.log(data);
-      console.log('-------- post method success callback Function------------');
+      console.log('-------- post method success callback Function ------------');
 
       callback(data);
 
     }, error => {
 
       console.log('ORS Error--', error);
-      console.log('-------- post method error callback Function------------');
+      console.log('-------- post method error callback Function ------------');
 
     }); ``
   }
